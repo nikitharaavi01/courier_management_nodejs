@@ -1,0 +1,38 @@
+[
+    {
+        "Entrydatetime": "2021-10-02 19:02:24",
+        "Parceltype": "PARCEL",
+        "Source": "NEWYORK",
+        "Destination": "SEATTLE",
+        "Status": "TRANSIT",
+        "Consignmentnumber": "2MT5GKUAE1",
+        "Cargotype": "DOCUMENTS",
+        "Weight": "25 KG",
+        "Invoicenumber": "08960",
+        "Paymentmode": "CASH",
+        "Totalamount": "$213",
+        "Shippingmode": "AIR",
+        "Personname": "John Doe",
+        "Address": "701 W 41st Ave Ste D, 99503",
+        "Contactnumber": "(123)456-7890",
+        "Emailid": "Fname@gmail.com"
+    },
+    {
+        "Entrydatetime": "2021-10-02 19:02:24",
+        "Parceltype": "PARCEL",
+        "Source": "NEWYORK",
+        "Destination": "SEATTLE",
+        "Status": "TRANSIT",
+        "Consignmentnumber": "2MT5GKUAE1",
+        "Cargotype": "DOCUMENTS",
+        "Weight": "25 KG",
+        "Invoicenumber": "08960",
+        "Paymentmode": "CASH",
+        "Totalamount": "$213",
+        "Shippingmode": "AIR",
+        "Personname": "John Doe",
+        "Address": "701 W 41st Ave Ste D, 99503",
+        "Contactnumber": "(123)456-7890",
+        "Emailid": "Fname@gmail.com"
+    }
+]

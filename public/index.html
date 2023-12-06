@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikitha Raavi</title>
+    <link rel="stylesheet" href="profileAssignment.css">
+    <style>
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color:#E3F2FD ;
+}
+nav{
+    background-color: #E3F2FD;
+}
+.about{
+    background-color: #BBDEFB;
+}
+.ni{
+    display: flex;
+}
+.name{
+    text-align:center;
+    /* width:50%; */
+    margin-left: 100px;
+    margin-top: 50px;
+    
+}
+.image{
+    float:left;
+    padding-top:10px;
+    padding-right:10px;
+    padding-bottom:10px;
+    padding-left:100px
+   
+}
+.Obj{
+    background-color: #90CAF9;
+}
+.skills{
+    background-color: #64B5F6;
+}
+.projects {
+    /* width: 250px; */
+    padding: 10px;
+    /* border: 2px solid black; */
+    background-color: #42A5F5;
+    /* border-radius: 20px; */
+    box-sizing: border-box;
+}
+.project {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+        /* border: 2px solid black; */
+    }
+    .year {
+        flex: 1;
+        text-align: left;
+        padding-left: 10px;
+    }
+    /* .divider {
+        width: 2px;
+        height: 40px;
+        background: black;
+        margin: 0 200px;
+    } */
+    /* .np{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+
+    } */
+    .np {
+        flex: 1;
+        text-align: center;
+        padding-right: 20px;
+    }
+
+    .Education{
+        background-color: #2196F3;
+    }
+    .Interest{
+        background-color: #1E88E5;
+
+    }
+    footer{
+        background-color: #1976D2;
+    }
+
+
+    @media only screen and (max-width: 500px) {
+        nav li {
+          display: block;
+          margin: 0; 
+          /* grid-template-columns: 1fr; */
+        }
+      
+        main {
+          flex-direction: column; 
+        }
+      
+        aside {
+          padding: 0;
+          
+          /* padding-right: 20px;padding-left: 10px; */
+        }
+      }
+      
+    
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <a href="#about">About</a>
+            <a href="#Objective">Objective</a>
+            <a href="#Skills">Skills</a>
+            <a href="#Project1">Projects</a>
+            <a href="#Education">Education</a>
+            <a href="#interest">Interest</a>
+            <a href="#Footer">Footer</a>
+        </nav>
+        <div class="about" id="about">
+            <h2>About</h2>
+            <div class="ni">
+            <div class="image">
+            <img src="https://images.unsplash.com/photo-1499952127939-9bbf5af6c51c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1776&q=80" width=150px height=150px alt="Nikitha Raavi"> 
+            </div>
+            <div class="name">
+                <h2> Nikitha Raavi</h2>
+            </div>
+            </div>
+        </div>
+        <div class="Obj" id="Objective">
+            <h4>Objective</h4>
+            <p> To pursue a challenging career in computer science to expand my learnings, knowledge, skills and fully utilize my training skills and thoroughly understand concepts in both management and IT and significantly contribute my abilities to the success of the organization.</p>
+        </div>
+        <div class="skills" id="Skills">
+            <h4>Skills</h4>
+            <ul><li>Programming language</li>
+            <li>Data Analysis</li><li>DBMS</li><li>Detail Oriented</li> </ul>
+        </div>
+        <div class="projects" id="Project1">
+            <h4>Projects</h4>
+            <div class="project">
+            <span class="year">May'21-April'22</span>
+            <!-- <div class="divider"></div> -->
+            <span class="np">Air Quality Analysis Forecasting</span>
+            </div>
+            <div class="project">
+            <span class="year">Jan'21-April'21</span>
+            <!-- <div class="divider"></div> -->
+            <span class="np">Hospital Management System</span>
+            </div>
+            <div class="project">
+            <span class="year">Jun'20-Dec'20</span>
+            <!-- <div class="divider"></div> -->
+            <span class="np">Plasma Management System</span>
+            </div>
+        </div>
+        <div class="Education" id="Education">
+            <h4>Education</h4>
+            <div class="project">
+            <span class="year">2018-2022</span>
+            <!-- <div class="divider"></div> -->
+            <span class="np">SRM University, Amaravathi</span>
+            </div>
+            <div class="project">
+            <span class="year">2016-2018</span>
+            <!-- <div class="divider"></div> -->
+            <span class="np">Vignan Girls Junior College</span>
+            </div>
+            <div class="project">
+            <span class="year">2016</span>
+            <!-- <div class="divider"></div> -->
+            <span class="np">Universal High School, AP</span>
+            </div>
+
+        </div>
+        <div class="Interest" id="interest">
+            <h4>Interest</h4>
+            <ul><li>Playing badminton</li><li>Reading Books</li><li>listening to music</li></ul>
+        </div>
+        <footer id="Footer">
+            <h4>Social Media</h4>
+            <a href="https://www.linkedin.com/feed/" target="_blank" ><img src="https://images.unsplash.com/photo-1611944212129-29977ae1398c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGlua2VkaW4lMjBpY29ufGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60" width=70px height = 70px alt="https://www.linkedin.com/feed/" class="footer_image">
+            <a href="https://twitter.com/?lang=en" target="_blank" ><img src="https://images.unsplash.com/photo-1611605698335-8b1569810432?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dHdpdHRlciUyMGljb258ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60" width=70px height = 70px alt="https://twitter.com/?lang=en" class="footer_image">
+            <a href="https://www.instagram.com/?hl=en" target="_blank" ><img src="https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dHdpdHRlciUyMGljb258ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60" width=70px height = 70px  alt="https://www.instagram.com/?hl=en" class="footer_image">
+              
+        </footer>
+
+    </div>
+
+    
+</body>
+</html>
